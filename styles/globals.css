@@ -2,29 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.btn {
+  @apply px-6 py-4 outline-none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+  /* Rounder Modren Border */
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .grounded-radiants {
+    position: relative;
+    border: solid transparent;
+    border-radius: 2rem;
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+    background-clip: padding-box;
   }
-  body {
-    color: white;
-    background: black;
+
+  .grounded-radiants::after {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+    content: "";
+    z-index: -1;
+    border-radius: 2rem;
+  }
+
+  /* Fancy text */
+
+  .fancy-text {
+    background: #276ea3;
+    background: linear-gradient(to right, #276ea3 0%, #0fb3c5 49%, #0cc77d 96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* my Border without bg */
+  .myborder {
+    position: relative;
+    border: solid transparent;
+    border-radius: 2rem;
+    background: white;
+    background-clip: padding-box;
+  }
+  .myborder::after {
+    position: absolute;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+    content: "";
+    z-index: -1;
+    border-radius: 2rem;
+  }
+  .mystyle {
+  }
+  .gridbg {
+    background-image: repeating-linear-gradient(
+        135deg,
+        rgba(240, 17, 17, 0.09) 0px,
+        hsla(66, 0%, 33%, 0.09) 1px,
+        transparent 1px,
+        transparent 11px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        hsla(66, 0%, 33%, 0.09) 0px,
+        hsla(66, 0%, 33%, 0.09) 1px,
+        transparent 1px,
+        transparent 11px
+      );
   }
 }
+/* 
+background: rgb(39,110,163);
+background: linear-gradient(133deg, rgba(39,110,163,0.8939950980392157) 0%, rgba(30,30,30,1) 17%, rgba(29,40,36,0.8575805322128851) 79%, rgba(26,70,53,0.8323704481792717) 89%, rgba(25,82,60,0.6446953781512605) 100%, rgba(12,199,125,0.7035189075630253) 100%);
+*/

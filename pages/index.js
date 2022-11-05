@@ -13,7 +13,6 @@ export default function Home() {
       </div>
       <main>
         {/* Layout */}
-
         <Layout />
       </main>
     </>
