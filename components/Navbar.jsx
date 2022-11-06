@@ -18,15 +18,15 @@ const Navbar = () => {
 
         <div
           onClick={onclick}
-          className="cursor-pointer md:hidden right-1 top-2 absolute text-2xl">
+          className="cursor-pointer lg:hidden right-1 top-2 absolute text-2xl">
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
 
         <div>
           <ul
-            className={`flex flex-col md:items-center pl-2 md:pl-0  md:flex-row md:space-x-3 absolute md:static ${
+            className={`flex flex-col lg:items-center pl-2 md:pl-0  lg:flex-row md:space-x-3 absolute lg:static ${
               open ? "top-10" : "top-[-480px]"
-            }  md:bg-inherit w-full md:w-auto left-0 transition-all font-semibold ease-in duration-300 bg-stone-500  opacity-75 text-black md:text-white`}>
+            }  md:bg-inherit w-full xl:w-auto left-0 transition-all font-semibold ease-in duration-300 bg-stone-500  opacity-75 text-black md:text-white`}>
             <li>Sacrifice</li>
             <li>Tokenomic</li>
             <li>Airdrop</li>
@@ -44,7 +44,7 @@ const Navbar = () => {
               </button>
             </li>
             <li className="flex gap-1 items-center my-4 md:my-0">
-              <div>
+              <div className="">
                 <Image src={globe}></Image>
               </div>
               <div className="text-white font-semibold">ENG</div>

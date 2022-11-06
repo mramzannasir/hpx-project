@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <div className="gridbg">
-        <div className="px-2 md:px-24 lg:px-48">
+        <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36">
           <div>
             <Navbar />
           </div>{" "}
