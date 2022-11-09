@@ -4,7 +4,9 @@
 
 @layer components {
   /* Fancy text */
-
+  html {
+    scroll-behavior: smooth;
+  }
   .fancy-text {
     background: #2269a0;
     background: linear-gradient(to right, #276ea3 0%, #0fb3c5 49%, #0cc77d 96%);
@@ -16,6 +18,7 @@
   }
 
   .gridbg {
+    opacity: 0.9999;
     background-image: repeating-linear-gradient(
         135deg,
         rgba(240, 17, 17, 0.09) 0px,
@@ -37,5 +40,198 @@
         #020202 63%,
         #2deca1b3 300%
       );
+  }
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+
+  /* Rounded border for ------buttons--- */
+
+  #boxmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5rem;
+    font-family: "SansSerif", "Helvetica Neue", Helvetica, Arial, sans;
+    background: #010101;
+  }
+  .gradient-bordermin {
+    --borderWidth: 2px;
+    background: #1d1f20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-bordermin:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+
+    border-radius: calc(16 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
+  }
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+
+  /* Border for big boxs */
+  #boxmax {
+    background: #010101;
+  }
+  .gradient-bordermax {
+    --borderWidth: 3px;
+    background: #010101;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-bordermax:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
+  }
+  /* /&&&&&&&&&&&&&&&&&& */
+  /* /&&&&&&&&&&&&&&&&&& */
+  /* /&&&&&&&&&&&&&&&&&& */
+  /* /&&&&&&&&&&&&&&&&&& */
+  /* /&&&&&&&&&&&&&&&&&& */
+  /* /&&&&&&&&&&&&&&&&&& */
+
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* ______ */
+  /* for search  */
+  #boxsrch {
+    color: white;
+    border-radius: 2rem;
+    background: #13161b;
+  }
+  .gradient-bordersrch {
+    --borderWidth: 2px;
+    background: #13161b;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-bordersrch:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+
+    border-radius: calc(13 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
   }
 }

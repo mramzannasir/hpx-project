@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Section3 from "./Section3";
 
 const Layout = () => {
   return (
@@ -10,10 +11,13 @@ const Layout = () => {
           <div>
             <Navbar />
           </div>{" "}
-          <div>
+          <div className="">
             <Banner />
           </div>
         </div>
+      </div>
+      <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#1e1e1e] ">
+        <Section3 />
       </div>
     </>
   );

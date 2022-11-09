@@ -47,12 +47,14 @@ const Banner = () => {
             <Image src={img}></Image>
           </div>
         </section>
-
+        {/* __________________________________________________2nd Section start from here___________________________ */}
         <section className="flex flex-col md:flex-row gap-5 justify-center text-white">
-          <div className="flex-1 border border-[#2deca1b3] p-2 md:p-4 rounded-lg justify-center items-center">
+          <div
+            className="flex-1 p-2 md:p-4 justify-center items-center gradient-bordermax"
+            id="boxmax">
             {/* ____________________1st_Row_______________________________________ */}
 
-            <div className="flex flex-col md:flex-row gap-1">
+            <div className="flex flex-col xl:flex-row gap-1">
               <div className="flex gap-1">
                 <div className="flex gap-1 items-center">
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-bold fancy-text">
@@ -75,7 +77,7 @@ const Banner = () => {
               </div>
             </div>
             {/* ____________________________2nd_Row__________________________ */}
-            <div className="flex flex-col md:flex-row gap-1 mt-1">
+            <div className="flex flex-col xl:flex-row gap-1 mt-1">
               <div className="flex gap-1">
                 <div className="flex gap-1 items-center">
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
@@ -109,7 +111,9 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="flex-1 border border-[#2deca1b3] p-2 md:p-4 rounded-lg">
+          <div
+            className="flex-1 border border-[#2deca1b3] p-2 md:p-4 rounded-lg gradient-bordermax"
+            id="boxmax">
             <div>
               <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                 The usefullness of Hpx for Pulsechain

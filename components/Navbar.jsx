@@ -39,7 +39,7 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <button className="px-6 py-1  rounded-full border-2 border-[#2deca1b3] ">
+              <button className="px-6 py-1 gradient-bordermin  " id="boxmin">
                 Referral
               </button>
             </li>
