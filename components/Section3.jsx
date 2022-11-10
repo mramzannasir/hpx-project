@@ -37,9 +37,9 @@ const Section3 = () => {
               height="315"
               src="https://www.youtube.com/embed/gElfIo6uw4g"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+              allowFullScreen></iframe>
           </div>
         </div>
       </section>
@@ -54,7 +54,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img1} alt="" srcset="" />
+                      <Image src={img1} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">USD Coin</h1>
@@ -70,7 +70,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img3} alt="" srcset="" />
+                      <Image src={img3} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">ETH</h1>
@@ -85,7 +85,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img5} alt="" srcset="" />
+                      <Image src={img5} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Tether</h1>
@@ -100,7 +100,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img7} alt="" srcset="" />
+                      <Image src={img7} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">HEX</h1>
@@ -115,7 +115,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img9} alt="" srcset="" />
+                      <Image src={img9} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Dai</h1>
@@ -130,7 +130,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img11} alt="" srcset="" />
+                      <Image src={img11} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">
@@ -149,7 +149,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img2} alt="" srcset="" />
+                      <Image src={img2} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Hedron</h1>
@@ -164,7 +164,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={dedco} alt="" srcset="" />
+                      <Image src={dedco} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Dodeca</h1>
@@ -179,7 +179,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={polygn} alt="" srcset="" />
+                      <Image src={polygn} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg">Polygon</h1>
@@ -194,7 +194,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img8} alt="" srcset="" />
+                      <Image src={img8} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Shiba Inu</h1>
@@ -209,7 +209,7 @@ const Section3 = () => {
                 <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
-                      <Image src={img10} alt="" srcset="" />
+                      <Image src={img10} alt="" srcSet="" />
                     </div>
                     <div>
                       <h1 className="text-sm md:text-lg ">Wrapped Coin</h1>
@@ -266,7 +266,7 @@ const Section3 = () => {
       </section>
 
       <div>
-        <Chart />
+        <Chart />{" "}
       </div>
     </>
   );

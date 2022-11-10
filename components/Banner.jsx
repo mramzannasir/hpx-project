@@ -60,20 +60,20 @@ const Banner = () => {
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-bold fancy-text">
                     Stake
                   </h1>
-                  <Image src={img1} alt="" srcset="" />
+                  <Image src={img1} alt="" srcSet="" />
                 </div>
                 <div className="flex gap-1 items-center">
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-bold fancy-text">
                     $Hpx and earn
                   </h1>
-                  <Image src={img1} alt="" srcset="" />
+                  <Image src={img1} alt="" srcSet="" />
                 </div>
               </div>
               <div className="flex gap-1 items-center">
                 <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                   PLS,
                 </h1>
-                <Image src={img1} alt="" srcset="" />
+                <Image src={img1} alt="" srcSet="" />
               </div>
             </div>
             {/* ____________________________2nd_Row__________________________ */}
@@ -83,13 +83,13 @@ const Banner = () => {
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                     pHex
                   </h1>
-                  <Image src={img1} alt="" srcset="" />
+                  <Image src={img1} alt="" srcSet="" />
                 </div>
                 <div className="flex gap-1 items-center">
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                     PLSX, and
                   </h1>
-                  <Image src={img1} alt="" srcset="" />
+                  <Image src={img1} alt="" srcSet="" />
                 </div>
               </div>
 

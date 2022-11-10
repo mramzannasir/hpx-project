@@ -17,6 +17,7 @@ const Layout = () => {
         </div>
       </div>
       <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#1e1e1e] ">
+        {/* bg-[#1e1e1e]  */}
         <Section3 />
       </div>
     </>

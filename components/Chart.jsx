@@ -1,72 +1,28 @@
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  Bar,
-} from "chart.js";
-import { Chart } from "react-chartjs-2";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-);
+// ./components/LineChart.js
 
 import React from "react";
+import Chart from "chart.js/auto";
+import { Line } from "react-chartjs-2";
+
+const labels = ["Today", "Nov 12", "Nov 20", "Dec3"];
 
 const data = {
-  labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+  labels: labels,
   datasets: [
     {
-      label: "# of Votes",
-      data: [12, 19, 3, 5, 2, 3],
-      backgroundColor: [
-        "rgba(255, 99, 132, 0.2)",
-        "rgba(54, 162, 235, 0.2)",
-        "rgba(255, 206, 86, 0.2)",
-        "rgba(75, 192, 192, 0.2)",
-        "rgba(153, 102, 255, 0.2)",
-        "rgba(255, 159, 64, 0.2)",
-      ],
-      borderColor: [
-        "rgba(255, 99, 132, 1)",
-        "rgba(54, 162, 235, 1)",
-        "rgba(255, 206, 86, 1)",
-        "rgba(75, 192, 192, 1)",
-        "rgba(153, 102, 255, 1)",
-        "rgba(255, 159, 64, 1)",
-      ],
-      borderWidth: 1,
+      backgroundColor: "rgb(255, 199, 132)",
+      borderColor: "rgb(255, 99, 132)",
+      data: [1, 1, 20, 35, 50],
     },
   ],
 };
 
-export default () => ({
-  displayName: "BarExample",
-  render() {
-    return (
-      <>
-        <div>
-          <h2>Bar Example (custom size)</h2>
-          <Bar
-            data={data}
-            width={400}
-            height={200}
-            options={{
-              maintainAspectRatio: false,
-            }}
-          />
-        </div>
-      </>
-    );
-  },
-});
+const LineChart = () => {
+  return (
+    <div className="chart-container flex justify-center xl:px-56 ">
+      <Line data={data} />
+    </div>
+  );
+};
+
+export default LineChart;
