@@ -14,7 +14,6 @@ import img11 from "../Images/3rd-box-ico11.png";
 import dedco from "../Images/dedco.png";
 import polygn from "../Images/polygn.png";
 import Doc_ico from "../Images/Doc_ico.png";
-import Chart from "./Chart";
 
 const Section3 = () => {
   return (
@@ -224,13 +223,13 @@ const Section3 = () => {
           </div>
         </div>
         {/* 2nd Box */}
-        <div className="flex flex-col rounded-xl  py-6 px-3 bg-[#13161B] opacity-95">
+        <div className="flex flex-col rounded-xl  py-6 px-3 bg-[#1e1e1e] opacity-95">
           <div>
             <h1 className="text-2xl lg:text-3xl font-semibold text-center">
               Totol Sacrifices in USD so <br /> far
             </h1>
           </div>
-          <div className="p-4 bg-[#1e1e1e] rounded-2xl my-2 cursor-pointer md:mt-6 xl:mt-10">
+          <div className="p-4 bg-[#2c2a2a] rounded-2xl my-2 cursor-pointer md:mt-6 xl:mt-10">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold fancy-text text-center ">
               $51836.79
             </h1>
@@ -264,10 +263,6 @@ const Section3 = () => {
           </div>
         </div>
       </section>
-
-      <div>
-        <Chart />{" "}
-      </div>
     </>
   );
 };

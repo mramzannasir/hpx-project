@@ -12,8 +12,7 @@ const data = {
     {
       backgroundColor: "rgb(19, 22, 27)",
       borderColor: "rgb(255, 99, 132)",
-      Color: "rgb(255, 255, 255)",
-      data: [1, 1, 20, 35, 50],
+      data: [50, 30, 10, 0],
     },
   ],
 };
@@ -21,10 +20,7 @@ const data = {
 const LineChart = () => {
   return (
     <>
-      <h1 className="lg:text-4xl text-2xl font-semibold text-white text-center p-6 lg:py-14">
-        Rate Per 10,000 Sacrifices Point
-      </h1>
-      <div className="chart-container flex justify-center md:mx-24 xl:mx-64 py-4  bg-[#0D0F15] text-stone-100 rounded-2xl">
+      <div className="chart-container flex justify-center bg-[#0D0F15] text-stone-100 rounded-2xl">
         <Line data={data} />
       </div>
       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>

@@ -2,7 +2,9 @@ import React from "react";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 import Section3 from "./Section3";
+import Section4 from "./Section4";
 
+import Chart from "./Chart";
 const Layout = () => {
   return (
     <>
@@ -16,9 +18,15 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#1e1e1e] ">
+      <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#13161B] ">
         {/* bg-[#1e1e1e]  */}
         <Section3 />
+      </div>
+      <div className="bg-neutral-800">
+        <Chart />
+      </div>
+      <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#13161B] ">
+        <Section4 />
       </div>
     </>
   );
