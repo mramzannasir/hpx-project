@@ -78,8 +78,8 @@ $Hpx will be used as one of four different trading methods, which will be the on
 
 2nd: Pulsechain, pHex, pulseX and the USDL will be available as well for Nft trading methods. Once the trade is completed, they will be committed to an 2.22% commission fee.
 3rd:
-100% of our commission earned in PLS, PLSX and USDL will be given to $Hpx stakers. By staking it, you’re becoming stakeholder of Hpx company. The more $Hpx you stake, the more pulsechain, pulseX, pHex and USDL you will earn.
-4th:
+100% of our commission earned in PLS, PLSX and USDL will be given to $Hpx stakers. By staking it, you’re becoming stakeholder of Fmpany. The more $Hpx you stake, the more pulsechain, pulseX, pHex and USDL you will earn.
+4th:F
 Once someone stakes $Hpx, 0.111% of their coins get’s burned.
 
 <!-- Air Drop -->
