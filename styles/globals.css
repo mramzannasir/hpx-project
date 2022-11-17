@@ -242,6 +242,33 @@
   /* another border */
   /* another border */
   /* another border */
+  #boxi {
+    border-radius: 2rem;
+  }
+  .gi {
+    --borderWidth: 2px;
+    background: rgba(68, 64, 60, 1);
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gi:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+
+    border-radius: calc(13 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
+  }
   /* another border */
   /* another border */
   /* another border */
@@ -281,5 +308,24 @@
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     background-size: 100% 100%;
+  }
+
+  /* for Recaptcha */
+  @media only screen and (max-width: 500px) {
+    .g {
+      transform: scale(0.77);
+      transform-origin: 5 5;
+    }
+  }
+  .rc-anchor-alert {
+    color: white !important;
+  }
+  #rc-anchor-alert {
+    color: white !important;
+  }
+  @media (min-width: 768px) {
+    .gi {
+      width: 40%;
+    }
   }
 }

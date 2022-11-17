@@ -5,6 +5,8 @@ import Section3 from "./Section3";
 import Section4 from "./Section4";
 
 import Chart from "./Chart";
+import AirDrop from "./AirDrop";
+import Team from "./Team";
 const Layout = () => {
   return (
     <>
@@ -27,6 +29,12 @@ const Layout = () => {
       </div>
       <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#13161B] ">
         <Section4 />
+      </div>
+      <div className="bg-neutral-800 px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36">
+        <AirDrop />
+      </div>
+      <div className="px-2 md:px-4 lg:px-16 xl:px-24 2xl:px-36 bg-[#13161B] ">
+        <Team />
       </div>
     </>
   );

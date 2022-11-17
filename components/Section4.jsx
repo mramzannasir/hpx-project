@@ -117,7 +117,7 @@ const Section4 = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="pb-14">
           <h1 className="text-sm lg:text-base font-semibold mt-6 text-center cursor-pointer underline underline-offset-4">
             See Hpx advanced Techspecs
           </h1>
