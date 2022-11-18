@@ -22,7 +22,7 @@ const AirDrop = () => {
               <div className="gi mb-6 " id="boxi">
                 <div>
                   <input
-                    className="text-sm px font-normal px-2 py-2 w-56 md:w-[100%] outline-none text-stone-300 bg-neutral-800 rounded-full border-none"
+                    className="text-sm px font-normal px-2 py-2 w-56 md:w-[100%] outline-none text-stone-300 bg-[#13161b] rounded-full border-none"
                     placeholder="Wallet Address ox..."
                   />
                 </div>

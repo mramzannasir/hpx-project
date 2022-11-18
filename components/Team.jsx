@@ -32,7 +32,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Backend Developer </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Backend Developer{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">
@@ -60,7 +63,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Founder Chairman </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Founder Chairman{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">
@@ -88,7 +94,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Febrit CEO </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Febrit CEO{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">
@@ -108,7 +117,7 @@ const Team = () => {
           </div>
         </div>
         {/* Parent */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-10 2xl:gap-14 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-10 2xl:gap-14 mt-16 pb-16 xl:pb-24">
           {/* Child */}
           <div className="flex flex-col bg-[#333333]  rounded-2xl items-center mt-14">
             <div>
@@ -120,7 +129,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Backend Developer </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Backend Developer{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">
@@ -148,7 +160,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Febrit CEO </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Febrit CEO{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">
@@ -176,7 +191,10 @@ const Team = () => {
               </h1>
             </div>
             <div>
-              <p className="text-base font-normal"> Graphic Designer </p>
+              <p className="text-base font-normal text-stone-300">
+                {" "}
+                Graphic Designer{" "}
+              </p>
             </div>
             {/* Icoooooooo */}
             <div className="flex gap-6 mt-6 items-center pb-6">

@@ -21,7 +21,7 @@ const Section4 = () => {
             interest each time a transaction is made, just like a shareholder of
             a company.
           </p>
-          <div className="p-4 lg:px-8 bg-[#2c2a2a] rounded-2xl cursor-pointer inline-block">
+          <div className="p-4 lg:px-8 bg-[#22252a] rounded-2xl cursor-pointer inline-block">
             <h1 className="text-base font-semibold">End in</h1>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold fancy-text text-center ">
               00:30:20:33
@@ -41,7 +41,7 @@ const Section4 = () => {
 
       <section className="mt-10 xl:my-28 opacity-95 pb-8">
         <div className="gradient-b py-5  duration-300 relative" id="boxb">
-          <h1 className="text-xl xl:text-4xl font-semibold text-center absolute -inset-5 left-[29%] md:left-[40%]  xl:left-[38%] bg-[#13161B]  w-[48%] xl:w-[18%]  md:w-[22%] h-[2rem]">
+          <h1 className="text-xl xl:text-4xl font-semibold text-center absolute -inset-5 left-[29%] md:left-[40%]  xl:left-[38%] bg-[#0d0f15]  w-[48%] xl:w-[18%]  md:w-[22%] h-[2rem]">
             Project Status
           </h1>
 
@@ -71,9 +71,10 @@ const Section4 = () => {
         <p className="text-center text-sm xl:text-lg font-semibold my-4 ">
           The 10,000 tokenomics
         </p>
+
         {/* --------------------------------Boxs--------------------------------------------- */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 2xl:gap-4">
-          <div className="bg-[#1b1f25] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
+          <div className="bg-[#13161b] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
             <Image src={igm1} />
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               $Hpx core utility
@@ -84,7 +85,7 @@ const Section4 = () => {
               than other trading methods. (From 2.222% to 0.222%)
             </p>
           </div>
-          <div className="bg-[#1b1f25] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
+          <div className="bg-[#13161b] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
             <Image src={igm2} />
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               NFTs Trading
@@ -95,7 +96,7 @@ const Section4 = () => {
               committed to an 2.22% commission fee.
             </p>
           </div>
-          <div className="bg-[#1b1f25] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
+          <div className="bg-[#13161b] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
             <Image src={igm3} />
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               Hpx staking
@@ -107,7 +108,7 @@ const Section4 = () => {
               and USDL you will earn.
             </p>
           </div>
-          <div className="bg-[#1b1f25] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
+          <div className="bg-[#13161b] rounded-md px-1 py-3  xl:px-3 xl:py-5 cursor-pointer hover:opacity-70 duration-300">
             <Image src={igm4} />
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               Hpx defilation

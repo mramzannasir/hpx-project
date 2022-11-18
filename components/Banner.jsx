@@ -50,7 +50,7 @@ const Banner = () => {
         {/* __________________________________________________2nd Section start from here___________________________ */}
         <section className="flex flex-col md:flex-row gap-5 justify-center text-white">
           <div
-            className="flex-1 p-2 md:p-4 justify-center items-center gradient-bordermax"
+            className="flex-1 p-2 md:p-4 justify-center items-center gradient-bordermax bg-[#13161b]"
             id="boxmax">
             {/* ____________________1st_Row_______________________________________ */}
 
@@ -112,7 +112,7 @@ const Banner = () => {
           </div>
 
           <div
-            className="flex-1 border border-[#2deca1b3] p-2 md:p-4 rounded-lg gradient-bordermax"
+            className="flex-1 border border-[#2deca1b3] p-2 md:p-4 rounded-lg gradient-bordermax bg-[#13161b]"
             id="boxmax">
             <div>
               <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">

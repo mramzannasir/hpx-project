@@ -50,7 +50,7 @@ const Section3 = () => {
           <div className="flex flex-col md:flex-row gap-2 mt-4 justify-center">
             <div className="list-none">
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img1} alt="" srcSet="" />
@@ -66,7 +66,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1 ">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img3} alt="" srcSet="" />
@@ -81,7 +81,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img5} alt="" srcSet="" />
@@ -96,7 +96,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img7} alt="" srcSet="" />
@@ -111,7 +111,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img9} alt="" srcSet="" />
@@ -126,7 +126,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img11} alt="" srcSet="" />
@@ -145,7 +145,7 @@ const Section3 = () => {
             </div>
             <div className="list-none">
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img2} alt="" srcSet="" />
@@ -160,7 +160,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={dedco} alt="" srcSet="" />
@@ -175,7 +175,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={polygn} alt="" srcSet="" />
@@ -190,7 +190,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img8} alt="" srcSet="" />
@@ -205,7 +205,7 @@ const Section3 = () => {
                 </div>
               </li>
               <li className="mb-1">
-                <div className=" font-semibold flex justify-between border border-[#22262e] bg-[#191D24] hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
+                <div className=" font-semibold flex justify-between border border-[#22262e]  hover:opacity-70 cursor-pointer duration-300 rounded-xl py-4 px-2 items-center">
                   <div className="flex items-center gap-2">
                     <div>
                       <Image src={img10} alt="" srcSet="" />
@@ -223,13 +223,13 @@ const Section3 = () => {
           </div>
         </div>
         {/* 2nd Box */}
-        <div className="flex flex-col rounded-xl  py-6 px-3 bg-[#1e1e1e] opacity-95">
+        <div className="flex flex-col rounded-xl  py-6 px-3 bg-[#13161b] opacity-95">
           <div>
             <h1 className="text-2xl lg:text-3xl font-semibold text-center">
               Totol Sacrifices in USD so <br /> far
             </h1>
           </div>
-          <div className="p-4 bg-[#2c2a2a] rounded-2xl my-2 cursor-pointer md:mt-6 xl:mt-10">
+          <div className="p-4 bg-[#0d0f15] rounded-2xl my-2 cursor-pointer md:mt-6 xl:mt-10">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold fancy-text text-center ">
               $51836.79
             </h1>

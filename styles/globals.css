@@ -36,8 +36,8 @@
       linear-gradient(
         149deg,
         #0c9ec7f1 -20%,
-        #000000 23%,
-        #020202 63%,
+        #06070a 23%,
+        #0d0f15 63%,
         #2deca1b3 300%
       );
   }
@@ -104,6 +104,14 @@
     border-radius: calc(16 * var(--borderWidth));
     z-index: -1;
     background-size: 100% 100%;
+  }
+  .bg {
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
   }
   /* ______ */
   /* ______ */
@@ -247,7 +255,7 @@
   }
   .gi {
     --borderWidth: 2px;
-    background: rgba(68, 64, 60, 1);
+    background: #13161b;
     position: relative;
     border-radius: var(--borderWidth);
   }
@@ -274,20 +282,65 @@
   /* another border */
   /* another border */
   /* another border */
+  #boxf {
+    border-radius: 1rem;
+  }
+  .gf {
+    --borderWidth: 1px;
+    background: #13161b;
+    border-radius: 1rem;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gf:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+
+    border-radius: calc(16 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
+  }
   /* another border */
   /* another border */
   /* another border */
+
+  /* HOver Btn:
+
+*/
+  .btnx {
+    transition: 300ms;
+  }
+  .btnx:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      96.24deg,
+      #276ea3 0.15%,
+      #0fb3c5 49.29%,
+      #0cc77d 98.43%
+    );
+  }
+
   /* another border */
   /* another border */
   /* another border */
   #boxb {
     color: white;
     border-radius: 0.4rem;
-    background: #13161b;
+    background: #0d0f15;
   }
   .gradient-b {
     --borderWidth: 4px;
-    background: #13161b;
+    background: #0d0f15;
     position: relative;
     border-radius: var(--borderWidth);
   }
