@@ -41,15 +41,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer" />{" "}
               </div>
             </div>
           </div>
@@ -72,15 +72,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-x cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer" />{" "}
               </div>
             </div>
           </div>
@@ -103,15 +103,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer" />{" "}
               </div>
             </div>
           </div>
@@ -138,15 +138,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer" />{" "}
               </div>
             </div>
           </div>
@@ -169,15 +169,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-xl cursor-pointer " />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer " />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer " />{" "}
               </div>
             </div>
           </div>
@@ -200,15 +200,15 @@ const Team = () => {
             <div className="flex gap-6 mt-6 items-center pb-6">
               <div>
                 {" "}
-                <BsTwitter className="text-xl" />{" "}
+                <BsTwitter className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <BsLinkedin className="text-xl" />{" "}
+                <BsLinkedin className="text-xl cursor-pointer" />{" "}
               </div>
               <div>
                 {" "}
-                <RiInstagramFill className="text-2xl" />{" "}
+                <RiInstagramFill className="text-2xl cursor-pointer" />{" "}
               </div>
             </div>
           </div>

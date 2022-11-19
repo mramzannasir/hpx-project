@@ -79,7 +79,7 @@ const Section4 = () => {
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               $Hpx core utility
             </h1>
-            <p className="text-sm font-normal text-stone-200">
+            <p className="text-sm font-normal text-stone-200 opacity-70">
               $Hpx will be used as one of four different trading methods, which
               will be the only one to benefit the x10 cheaper commission fees
               than other trading methods. (From 2.222% to 0.222%)
@@ -90,7 +90,7 @@ const Section4 = () => {
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               NFTs Trading
             </h1>
-            <p className="text-sm font-normal text-stone-200">
+            <p className="text-sm font-normal text-stone-200 opacity-70">
               Pulsechain, pHex, pulseX and the USDL will be available as well
               for Nft trading methods. Once the trade is completed, they will be
               committed to an 2.22% commission fee.
@@ -101,7 +101,7 @@ const Section4 = () => {
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               Hpx staking
             </h1>
-            <p className="text-sm font-normal text-stone-200">
+            <p className="text-sm font-normal text-stone-200 opacity-70">
               100% of our commission earned in PLS, PLSX and USDL will be given
               to $Hpx stakers. By staking it, you’re becoming stakeholder of
               Fmpany. The more $Hpx you stake, the more pulsechain, pulseX, pHex
@@ -113,7 +113,7 @@ const Section4 = () => {
             <h1 className="my-5 text-2xl font-semibold md:text-3xl">
               Hpx defilation
             </h1>
-            <p className="text-sm font-normal text-stone-200">
+            <p className="text-sm font-normal text-stone-200 opacity-70">
               Once someone stakes $Hpx, 0.111% of their coins get’s burned.
             </p>
           </div>

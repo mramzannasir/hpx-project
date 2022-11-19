@@ -41,7 +41,10 @@ export default function Example() {
             <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
               <div className={`${open === 1 ? "bg-[#13161b]" : ""}`}>
                 <AccordionHeader onClick={() => handleOpen(1)}>
-                  Who is responsible for developing HPX?
+                  <h1 className="border-none outline-none">
+                    {" "}
+                    Who is responsible for developing HPX?
+                  </h1>
                 </AccordionHeader>
                 <AccordionBody>
                   <p className="text-base">

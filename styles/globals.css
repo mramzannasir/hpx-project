@@ -8,6 +8,13 @@
     scroll-behavior: smooth;
     /* overflow: hidden; */
   }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Graphik", sans-serif;
+  }
+
   .fancy-text {
     background: #2269a0;
     background: linear-gradient(to right, #276ea3 0%, #0fb3c5 49%, #0cc77d 96%);

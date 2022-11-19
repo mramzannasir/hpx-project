@@ -20,8 +20,8 @@ const Location = () => {
                 </h1>
               </div>
             </div>
-            <div class="mapouter">
-              <div class="gmap_canvas">
+            <div className="mapouter">
+              <div className="gmap_canvas">
                 <iframe
                   className="gmap_iframe"
                   width="100%"
@@ -48,8 +48,8 @@ const Location = () => {
                 </h1>
               </div>
             </div>
-            <div class="mapouter">
-              <div class="gmap_canvas">
+            <div className="mapouter">
+              <div className="gmap_canvas">
                 <iframe
                   className="gmap_iframe"
                   width="100%"
