@@ -6,6 +6,7 @@
   /* Fancy text */
   html {
     scroll-behavior: smooth;
+    /* overflow: hidden; */
   }
   .fancy-text {
     background: #2269a0;

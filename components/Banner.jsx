@@ -4,6 +4,11 @@ import plybtn from "../Images/play.png";
 import Image from "next/image";
 import img from "../Images/12.png";
 import img1 from "../Images/2nd_box-1st.png";
+import img2 from "../Images/2nd_box-2nd.png";
+import img3 from "../Images/2nd_box-3rd.png";
+import img4 from "../Images/2nd_box-4th.png";
+import img5 from "../Images/2nd_box-5th.png";
+
 const Banner = () => {
   return (
     <>
@@ -66,14 +71,14 @@ const Banner = () => {
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-bold fancy-text">
                     $Hpx and earn
                   </h1>
-                  <Image src={img1} alt="" srcSet="" />
+                  <Image src={img2} alt="" srcSet="" />
                 </div>
               </div>
               <div className="flex gap-1 items-center">
                 <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                   PLS,
                 </h1>
-                <Image src={img1} alt="" srcSet="" />
+                <Image src={img3} alt="" srcSet="" />
               </div>
             </div>
             {/* ____________________________2nd_Row__________________________ */}
@@ -83,13 +88,13 @@ const Banner = () => {
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                     pHex
                   </h1>
-                  <Image src={img1} alt="" srcSet="" />
+                  <Image src={img4} alt="" srcSet="" />
                 </div>
                 <div className="flex gap-1 items-center">
                   <h1 className="text-xl md:text-2xl xl:text-3xl font-semibold">
                     PLSX, and
                   </h1>
-                  <Image src={img1} alt="" srcSet="" />
+                  <Image src={img5} alt="" srcSet="" />
                 </div>
               </div>
 
